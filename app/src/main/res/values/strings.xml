@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SpamSmsBlocker</string>
+    <string name="spam_sms_blocker">Spam SMS Blocker</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="contacticon">ContactIcon</string>
+    <string name="digicel">Digicel</string>
+    <string name="auto_delete_messages">Auto Delete Messages</string>
+    <string name="deny_notifications">Deny Notifications</string>
+    <string name="block_list">Block List</string>
+    <string name="potential_spam">Potential Spam</string>
+</resources>

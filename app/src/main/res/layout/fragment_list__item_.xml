@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".List_Item_Fragment"
+    android:layout_marginBottom="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:padding="8dp"
+    android:background="@drawable/border_rectangle"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="@string/contacticon"
+        android:src="@mipmap/ic_launcher" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:orientation="vertical"
+        android:layout_marginStart="12dp"
+
+        >
+
+        <TextView
+            android:id="@+id/contactName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/digicel"
+            android:textColor="#4a4a4a"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/btnClear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/digicel"
+            android:textColor="#bebebe"
+            android:textSize="16sp" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp">
+
+        <Switch
+            android:id="@+id/switchDelMsgs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/auto_delete_messages"
+            android:layout_gravity="end"
+            android:textColor="#bebebe"
+            android:textAlignment="viewEnd"/>
+
+        <Switch
+            android:id="@+id/switchDenyNotif"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/deny_notifications"
+            android:layout_gravity="end"
+            android:textColor="#bebebe"
+            android:textAlignment="viewEnd"/>
+    </LinearLayout>
+
+</LinearLayout>
